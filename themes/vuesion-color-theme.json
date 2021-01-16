@@ -36,7 +36,24 @@
 		"tab.inactiveModifiedBorder": "#202831",
 		"tab.lastPinnedBorder": "#3d8beb",
 		"badge.background": "#3d8beb",
-		"badge.foreground": "#fff"
+		"badge.foreground": "#fff",
+		"titleBar.activeBackground": "#202831",
+		"titleBar.activeForeground": "#fff",
+		"titleBar.border": "#303a45",
+		"titleBar.inactiveBackground": "#202831",
+		"titleBar.inactiveForeground": "#c9cbcf",
+		"breadcrumb.background": "#202831",
+		"breadcrumb.activeSelectionForeground": "#fff",
+		"breadcrumb.focusForeground": "#fff",
+		"breadcrumb.foreground": "#fff",
+		"breadcrumbPicker.background": "#202831",
+		"editor.selectionBackground": "#434e5b",
+		"editor.selectionForeground": "#202831",
+		"editor.selectionHighlightBackground": "#434e5b",
+		"editor.selectionHighlightBorder": "#202831",
+		"list.activeSelectionBackground": "#303a45",
+		"list.inactiveSelectionBackground":"#303a45",
+		"list.hoverBackground": "#303a45"
 	},
 	"tokenColors": [
 		{
