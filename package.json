@@ -1,0 +1,21 @@
+{
+    "name": "vuesion-theme",
+    "displayName": "vuesion-theme",
+    "description": "Theme for VS Code based on the @vuesion color scheme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vuesion",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vuesion-color-theme.json"
+            }
+        ]
+    }
+}

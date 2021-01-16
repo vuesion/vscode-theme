@@ -1,0 +1,107 @@
+{
+	"name": "vuesion",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#202831",
+		"editor.foreground": "#fff",
+		"activityBarBadge.background": "#216fe0",
+		"sideBar.background": "#202831",
+		"sideBar.border": "#303a45",
+		"sideBar.dropBackground": "#ff0000",
+		"sideBar.foreground": "#c9cbcf",
+		"sideBarSectionHeader.background": "#303a45",
+		"sideBarSectionHeader.border": "#303a45",
+		"sideBarSectionHeader.foreground": "#c9cbcf",
+		"sideBarTitle.foreground": "#c9cbcf"
+	},
+	"tokenColors": [
+		{
+			"name": "Vuesion neutral",
+			"scope": [
+				"variable.other.readwrite.alias.ts"
+			],
+			"settings": {
+				"foreground": "#fff"
+			}
+		},
+		{
+			"name": "Vuesion pink bold",
+			"scope": [
+				"keyword.control.import.ts",
+				"keyword.control.export.ts",
+				"keyword.control.default.ts",
+				"keyword.control.from.ts",
+				"keyword.control.flow.ts",
+				"constant.language.boolean.false.ts"
+			],
+			"settings": {
+				"foreground": "#ff92bb",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Vuesion Blue",
+			"scope": [
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"string.quoted.double.html"
+			],
+			"settings": {
+				"foreground": "#3D8BEB"
+			}
+		},
+		{
+			"name": "Vuesion Green",
+			"scope": [
+				"string.quoted.single.ts",
+				"punctuation.definition.string.begin.ts",
+				"punctuation.definition.string.end.ts",
+				"entity.name.tag.template.html",
+				"entity.name.tag.block.any.html",
+				"entity.name.tag.script.html"
+			],
+			"settings": {
+				"foreground": "#40BF77"
+			}
+		},
+		{
+			"name": "Vuesion Washed out Yellow",
+			"scope": [
+				"entity.name.function.ts"
+			],
+			"settings": {
+				"foreground": "#ffc66d"
+			}
+		},
+		{
+			"name": "Vuesion Yellow",
+			"scope": [
+
+			],
+			"settings": {
+				"foreground": "#F3C811"
+			}
+		},
+		{
+			"name": "Vuesion Yellow Ialic",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#F3C811",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Vuesion Gray Ialic",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#55616C",
+				"fontStyle": "italic"
+			}
+		}
+	]
+}
