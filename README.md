@@ -2,7 +2,7 @@
 
 **[Plugin Homepage](https://marketplace.visualstudio.com/items?itemName=vuesion.vuesion-theme)**
 
-![vuesion-theme](https://user-images.githubusercontent.com/1667598/55831298-0fda9400-5b13-11e9-8780-9ada6dd764cf.png)
+![vuesion-theme](https://user-images.githubusercontent.com/1667598/129297863-c10e6313-656d-4451-9082-b92849d519da.png)
 
 # Development
 
