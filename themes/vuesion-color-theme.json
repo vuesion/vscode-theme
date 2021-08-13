@@ -85,7 +85,7 @@
 		"minimap.background": "#202831",
 		"minimap.errorHighlight": "#c82600",
 		"minimap.findMatchHighlight": "#303a45",
-		"minimap.selectionHighlight": "#fff",
+		"minimap.selectionHighlight": "#303a45",
 		"minimap.warningHighlight": "#f3c811",
 		"minimapGutter.addedBackground": "#0d9660",
 		"minimapGutter.deletedBackground": "#303a45",
@@ -97,112 +97,52 @@
 
 
 
-		"menu.background": "#ff0000",
-		"panel.background": "#ff0000",
-		"button.background": "#ff0000",
-        "checkbox.background": "#ff0000",
-		"dropdown.background": "#ff0000",
-		"terminal.background": "#ff0000",
-		"selection.background": "#ff0000",
-		"editorInfo.background": "#ff0000",
-		"editorPane.background": "#ff0000",
-		"quickInput.background": "#ff0000",
-		"progressBar.background": "#ff0000",
-		"editorError.background": "#ff0000",
-		"welcomePage.background": "#ff0000",
-		"debugToolBar.background": "#ff0000",
-		"editorCursor.background": "#ff0000",
-		"textCodeBlock.background": "#ff0000",
-		"editorWarning.background": "#ff0000",
-		"minimapSlider.background": "#ff0000",
-		"notifications.background": "#ff0000",
-		"peekViewTitle.background": "#ff0000",
-		"textBlockQuote.background": "#ff0000",
-		"peekViewEditor.background": "#ff0000",
-		"peekViewResult.background": "#ff0000",
-		"quickInputTitle.background": "#ff0000",
-		"terminalCursor.background": "#ff0000",
-		"listFilterWidget.background": "#ff0000",
-		"editorHoverWidget.background": "#ff0000",
-		"panelSectionHeader.background": "#ff0000"
+		"menu.background": "#202831",
+		"panel.background": "#202831",
+		"button.background": "#f43b6c",
+        "checkbox.background": "#f43b6c",
+		"dropdown.background": "#202831",
+		"terminal.background": "#202831",
+		"selection.background": "#303a45",
+		"editorInfo.background": "#303a45",
+		"editorPane.background": "#202831",
+		"quickInput.background": "#202831",
+		"progressBar.background": "#216fe0",
+		"editorError.background": "#c82600",
+		"welcomePage.background": "#202831",
+		"debugToolBar.background": "#202831",
+		"editorCursor.background": "#303a45",
+		"textCodeBlock.background": "#303a45",
+		"editorWarning.background": "#a56a01",
+		"minimapSlider.background": "#000",
+		"notifications.background": "#202831",
+		"peekViewTitle.background": "#303a45",
+		"textBlockQuote.background": "#303a45",
+		"peekViewEditor.background": "#303a45",
+		"peekViewResult.background": "#303a45",
+		"quickInputTitle.background": "#303a45",
+		"terminalCursor.background": "#303a45",
+		"listFilterWidget.background": "#303a45",
+		"editorHoverWidget.background": "#202831",
+		"panelSectionHeader.background": "#202831"
 	},
 	"tokenColors": [
 		{
 			"name": "Vuesion neutral",
 			"scope": [
-				"variable.other.readwrite.alias.ts"
+				"variable.other.readwrite.alias",
+				"variable.other.object",
+				"constant.language.boolean.yaml",
+				"meta.definition.variable",
+				"storage.type.function.arrow",
+				"punctuation.accessor",
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end",
+				"meta.template.expression"
 			],
 			"settings": {
-				"foreground": "#fff"
-			}
-		},
-		{
-			"name": "Vuesion pink bold",
-			"scope": [
-				"keyword.control.import.ts",
-				"keyword.control.export.ts",
-				"keyword.control.default.ts",
-				"keyword.control.from.ts",
-				"keyword.control.flow.ts",
-				"constant.language.boolean.false.ts"
-			],
-			"settings": {
-				"foreground": "#ff92bb",
-				"fontStyle": "bold"
-			}
-		},
-		{
-			"name": "Vuesion Blue",
-			"scope": [
-				"punctuation.definition.tag.html",
-				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
-				"string.quoted.double.html"
-			],
-			"settings": {
-				"foreground": "#3D8BEB"
-			}
-		},
-		{
-			"name": "Vuesion Green",
-			"scope": [
-				"string.quoted.single.ts",
-				"punctuation.definition.string.begin.ts",
-				"punctuation.definition.string.end.ts",
-				"entity.name.tag.template.html",
-				"entity.name.tag.block.any.html",
-				"entity.name.tag.script.html"
-			],
-			"settings": {
-				"foreground": "#40BF77"
-			}
-		},
-		{
-			"name": "Vuesion Washed out Yellow",
-			"scope": [
-				"entity.name.function.ts"
-			],
-			"settings": {
-				"foreground": "#ffc66d"
-			}
-		},
-		{
-			"name": "Vuesion Yellow",
-			"scope": [
-
-			],
-			"settings": {
-				"foreground": "#F3C811"
-			}
-		},
-		{
-			"name": "Vuesion Yellow Ialic",
-			"scope": [
-				"entity.other.attribute-name.html"
-			],
-			"settings": {
-				"foreground": "#F3C811",
-				"fontStyle": "italic"
+				"foreground": "#fff",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -212,6 +152,190 @@
 			],
 			"settings": {
 				"foreground": "#55616C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Vuesion pink bold",
+			"scope": [
+				"keyword",
+				"keyword.control.import",
+				"keyword.control.export",
+				"keyword.control.default",
+				"keyword.control.from",
+				"keyword.control.flow",
+				"constant.language.boolean",
+				"storage.type",
+				"storage.modifier",
+				"storage.modifier.async",
+				"keyword.control.at-rule.import",
+				"entity.name.tag.yaml",
+				"variable.language.this",
+				"keyword.operator.new"
+			],
+			"settings": {
+				"foreground": "#ff92bb",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Vuesion knall-pink",
+			"scope": [
+				"entity.name.tag.css"
+			],
+			"settings": {
+				"foreground": "#F43B6C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vuesion Blue",
+			"scope": [
+				"punctuation.definition.tag",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end",
+				"string.quoted.double",
+				
+			],
+			"settings": {
+				"foreground": "#3D8BEB",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vuesion Blue bold",
+			"scope": [
+				"constant.language.json"
+			],
+			"settings": {
+				"foreground": "#3D8BEB",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Vuesion Washed out Blue",
+			"scope": [
+				"variable.parameter",
+				"constant.numeric.css",
+				"constant.other.color",
+				"keyword.other.unit",
+				"meta.property-value"
+			],
+			"settings": {
+				"foreground": "#8DC3F9",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vuesion Green",
+			"scope": [
+				"string.quoted.single",
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+				"entity.name.tag.template",
+				"entity.name.tag.block.any",
+				"entity.name.tag.script",
+				"entity.name.tag.style",
+				"punctuation.terminator.statement",
+				"entity.name.section.markdown",
+				"punctuation.definition.heading.markdown",
+				"entity.name.tag.html",
+				"string.template",
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#40BF77",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vuesion Green italic",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#40BF77",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Vuesion Yellow",
+			"scope": [
+				"string.quoted.double.json",
+				"punctuation.definition.string.begin.json",
+				"punctuation.definition.string.end.json",
+				"string.other.link.title.markdown",
+				"support.function.misc",
+				"entity.name.tag.reference.scss",
+				"entity.other.attribute-name.class",
+				"punctuation.section.function"
+			],
+			"settings": {
+				"foreground": "#F3C811",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vuesion Yellow Ialic",
+			"scope": [
+				"entity.name.type",
+				"entity.other.attribute-name",
+				"support.type.primitive",
+				"punctuation.separator.key-value.html"
+			],
+			"settings": {
+				"foreground": "#F3C811",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Vuesion Washed out Yellow",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#ffc66d",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vuesion purple Ialic Bold",
+			"scope": [
+				
+			],
+			"settings": {
+				"foreground": "#9876AA",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Vuesion red italic",
+			"scope": [
+				"keyword.other.important.css"
+			],
+			"settings": {
+				"foreground": "#E84606",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Vuesion Washed out red",
+			"scope": [
+				"constant.numeric.decimal",
+				"entity.other.attribute-name.id.css"
+			],
+			"settings": {
+				"foreground": "#F9846C",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Vuesion Washed out red italic",
+			"scope": [
+				"markup.underline.link.markdown"
+			],
+			"settings": {
+				"foreground": "#F9846C",
 				"fontStyle": "italic"
 			}
 		}
