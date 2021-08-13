@@ -1,10 +1,21 @@
 {
     "name": "vuesion-theme",
-    "displayName": "vuesion-theme",
+    "displayName": "Vuesion Theme",
     "description": "Theme for VS Code based on the @vuesion color scheme",
+    "publisher": "vuesion",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.52.0"
+    },
+    "icon": "icons/logo.png",
+    "author": {
+        "name": "Johannes Werner",
+        "email": "johannes.werner@hey.com",
+        "url": "https://vuesion.herokuapp.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vuesion/vscode-theme.git"
     },
     "categories": [
         "Themes"
