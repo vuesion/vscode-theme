@@ -3,7 +3,7 @@
     "displayName": "Vuesion Theme",
     "description": "Theme for VS Code based on the @vuesion color scheme",
     "publisher": "vuesion",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.52.0"
     },
